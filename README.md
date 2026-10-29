@@ -456,12 +456,7 @@ tests/test_validator.py ..........                                       [100%]
 
 ---
 
-## 21. Technical Skills & Resume Keywords
 
-`Python 3.12` • `Streamlit` • `PDF Processing` • `Tesseract OCR` • `pdfplumber` • `pypdfium2` • `Regular Expressions` • `SQLite3` • `Relational Modeling` • `Data Validation` • `Audit Logging` • `Data Normalization` • `CSV Security` • `Formula Injection Mitigation` • `pytest` • `Automated Testing` • `Software Architecture`
-
----
-
-## 22. License & Attribution
+## 21. License & Attribution
 
 This project is open-source software licensed under the **[MIT License](LICENSE)** as part of the **90 Days — 90 Projects Challenge** by **Ragu Ram P**.
