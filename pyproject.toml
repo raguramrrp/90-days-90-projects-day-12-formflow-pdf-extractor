@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "formflow-pdf-extractor"
+version = "1.0.0"
+description = "FormFlow: Intelligent PDF Form Field Extraction Pipeline for structured document extraction, validation, and review"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Ragu Ram P", email = "student@example.com" }
+]
+keywords = ["pdf-extraction", "form-processing", "ocr", "streamlit", "document-ai", "field-extraction"]
+dependencies = [
+    "streamlit>=1.35.0",
+    "pandas>=2.2.0",
+    "pillow>=10.0.0",
+    "pytesseract>=0.3.10",
+    "pdfplumber>=0.11.0",
+    "pypdf>=4.0.0",
+    "pypdfium2>=4.30.0",
+    "python-dateutil>=2.9.0",
+    "python-dotenv>=1.0.0",
+    "reportlab>=4.1.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "black>=24.0.0",
+    "flake8>=7.0.0"
+]
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --strict-markers"

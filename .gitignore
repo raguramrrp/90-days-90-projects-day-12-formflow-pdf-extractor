@@ -1,0 +1,33 @@
+# FormFlow .gitignore
+.venv/
+env/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Local databases and active uploaded files
+data/formflow.db
+data/formflow.db-shm
+data/formflow.db-wal
+data/storage/*
+!data/storage/.gitkeep
+
+# Environment and secrets
+.env
+.env.local
+
+# Streamlit local state
+.streamlit/*
+!.streamlit/config.toml
+*.log
+
+# OS artifacts
+Thumbs.db
+.DS_Store
